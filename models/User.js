@@ -9,6 +9,6 @@ const UserSchema = new mongoose.Schema({
   role: { type: String, default: "student" },
 });
 
-// Prevent recompilation error in dev
+// keep to avoid recompilation error 
 export default mongoose.models.User || mongoose.model("User", UserSchema);
 
