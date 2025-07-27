@@ -1,4 +1,4 @@
-🔐 Authentication System with Role-Based Access and OTP Verification  
+# 🔐 Authentication System with Role-Based Access and OTP Verification  
 This project is a backend-only authentication system built using Next.js API routes and MongoDB. It enables secure user registration and login with the following core features:  
 
 Email-based OTP verification: On registration, users receive a one-time password (OTP) on their email to verify their account.
