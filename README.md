@@ -1,11 +1,11 @@
 # 🔐 Authentication System with Role-Based Access and OTP Verification  
-This project is a backend-only authentication system built using Next.js API routes and MongoDB. It enables secure user registration and login with the following core features:  
+This is a backend-only authentication system built with Next.js API routes, MongoDB, and Nodemailer. It enables secure user onboarding and access control through the following core features:
 
-Email-based OTP verification: On registration, users receive a one-time password (OTP) on their email to verify their account.
+**Email-based OTP verification** : On registration, users receive a one-time password (OTP) on their email to verify their account.
 
-JWT authentication: Upon successful login, a JSON Web Token is issued to maintain session security.
+**JWT authentication**: Upon successful login, a JSON Web Token is issued to maintain session security.
 
-Role-based access control: Users are assigned roles (superadmin, admin, or student) that govern their access level within the system.
+**Role-based access control**: Users are assigned roles (superadmin, admin, or student) that govern their access level within the system.
 
 Clean project structure: API routes are separated by functionality, and MongoDB operations are handled via Mongoose models.
 
